@@ -1,7 +1,7 @@
 # Shortcuts
 alias reloadshell="source $HOME/.zshrc"
 alias ll="/usr/local/opt/coreutils/libexec/gnubin/ls -AhlFo --color --group-directories-first"
-alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
+alias shrug="echo '¯\_(ツ)_/¯'"
 alias c="clear"
 alias l="ls -la"       # List in long format, include dotfiles
 alias ld="ls -ld */"   # List in long format, only directories
