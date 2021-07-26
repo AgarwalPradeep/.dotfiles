@@ -176,3 +176,10 @@ function push_dotfiles() {
 	git commit -m "pushing automatic";
 	git push;
 }
+
+function clone() {
+	cd $HOME/repos;
+	git clone $1;
+}
+
+

@@ -11,6 +11,11 @@ alias ....="cd ../../.."
 alias rmf="rm -f"
 alias rmrf="rm -r -f"
 alias t="touch"
+alias port="lsof -i -P -n | grep LISTEN"
+
+#maven
+alias mvci="mvn clean install"
+alias dep_test="mvn deploy -P test-repository"   
 
 # Recursively remove .DS_Store files
 alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
